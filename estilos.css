@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 0.2%;
+  position: fixed;
+  width: 100%;
+  margin-bottom: 5%;
+}
+#barra {
+  position: fixed;
+  width: 100%;
+  margin-left: 0;
+  margin-bottom: 5%;
+  box-sizing: border-box;
+}
+#perfil {
+  padding-top: 15%;
+  padding-bottom: 2%;
+  position: static;
+}
+body {
+  background-color: violet;
+  text-align: center;
+}
+
+h4 {
+  font-style: italic;
+}
+
+.responsive-image {
+  border-radius: 30%;
+  max-width: 30%;
+  height: auto;
+}
+
+#portfolio {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: black;
+  color: antiquewhite;
+}
+
+#acercaDeMi {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: violet;
+  color: black;
+}
+
+#contacto {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: black;
+  color: antiquewhite;
+}
+
+#redes {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: violet;
+  color: black;
+}
+
+#copy {
+  padding: 1%;
+  margin-top: 1%;
+  background-color: black;
+  color: antiquewhite;
+}
+
+.imagenesColumna {
+  padding: 3%;
+  border-radius: 15%;
+  max-width: 100%;
+  height: auto;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #b50000;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(255, 0, 98);
+  color: white;
+}
+
+.fa {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 2%;
+  font-size: auto;
+  text-decoration: none;
+  margin-top: 2%;
+}
+
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Portfolio Facundo Olmos</title>
+    <header id="barra">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Facundo Olmos</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="#acercaDeMi">Acerca de Mi</a>
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  </head>
+  <body>
+    <div id="perfil">
+      <img src="./img/CV.jpg" alt="Facundo Olmos" class="responsive-image" />
+
+      <h1>
+        <br />
+        Facundo Nahuel Olmos Martín
+      </h1>
+
+      <h2>Developer / Locutor Nacional</h2>
+    </div>
+    <!-- SECCION PORTFOLIO -->
+
+    <div id="portfolio">
+      <h2>Portfolio</h2>
+      <br />
+      <div class="row">
+        <div class="col-sm">
+          <a
+            href="https://desafio-landingpage-olmos.netlify.app/"
+            target="_blank"
+            ><img
+              class="imagenesColumna"
+              src="./img/landing.jpg"
+              alt="Proyecto Landing Page"
+          /></a>
+          <h4>Landing Page Fotografo</h4>
+          <p>Una landing page de fotografia para SangreMapuche Ph</p>
+        </div>
+        <div class="col-sm">
+          <a href="https://desafio-colorgame-olmos.netlify.app/" target="_blank"
+            ><img
+              class="imagenesColumna"
+              src="./img/colorgame.jpg"
+              alt="Proyecto Colour Game"
+          /></a>
+          <h4>The Great Guessing Game</h4>
+          <p>Adivina el color según el codigo RGB</p>
+        </div>
+        <div class="col-sm">
+          <a
+            href="https://desafio-weatherchannel-olmos.netlify.app/"
+            target="_blank"
+            ><img
+              class="imagenesColumna"
+              src="./img/weather.jpg"
+              alt="Proyecto Weather Channel"
+          /></a>
+          <h4>Weather Channel</h4>
+          <p>Averigua el estado del clima a traves del uso de APIs</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECCION ACERCA DE MI -->
+    <div id="acercaDeMi">
+      <h2>Acerca De Mi</h2>
+      <br />
+      <p>
+        Soy Facundo Olmos, naci el 13 de Agosto de 1990. Desde que egrese del
+        Nacional de San Isidro en 2009, busque diferentes horizontes academicos.
+        <br />
+        Me recibi de Locutor Nacional de Radio y Television en 2015. Me gradue
+        de la Escuela de Doblaje Argentino en 2016. <br />
+        En 2017, empece mi proyecto radial audiovisual
+        <a href="https://www.youtube.com/@psiconautasdelinconsciente7221"
+          >Psiconautas del Inconsciente</a
+        >. <br />
+        A partir del 2021, comence a incursionar en el mundo de la programacion
+        de forma autodidacta. En 2022, realice un Curso de PYTHON, DJANGO, GIT y
+        GITHUB en Coderhouse.<br />
+        En 2023, ingrese al Centro Universitario de Vicente Lopez y realice el
+        Curso Introductorio de HTML, CSS y JAVASCRIPT. <br />
+      </p>
+    </div>
+    <!-- SECCION CONTACTO -->
+
+    <div id="contacto">
+      <h2>Contacto</h2>
+      <br />
+      <form method="POST" action="https://formspree.io/f/mbjenope">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Nombre y Apellido</label
+          >
+          <input
+            type="name"
+            class="form-control"
+            id="exampleFormControlInput1"
+            name="Nombre"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label"
+            >Telefono</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="exampleFormControlInput1"
+            name="telefono"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="email@example.com"
+            name="example@mail.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Mensaje</label
+          >
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            name="Mensaje"
+          ></textarea>
+          <br />
+          <button class="btn btn-primary" type="submit">ENVIAR</button>
+        </div>
+      </form>
+    </div>
+    <div id="redes">
+      <div class="row">
+        <div class="col-sm">
+          <h4>Dirección</h4>
+          <br />
+          <p>
+            Buenos Aires,<br />
+            Argentina.
+          </p>
+        </div>
+        <div class="col-sm">
+          <a
+            href="https://www.linkedin.com/in/facundo-nahuel-olmos-martin-b5a913181/"
+            target="_blank"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://www.youtube.com/@psiconautasdelinconsciente7221"
+            target="_blank"
+            class="fa fa-youtube"
+          ></a>
+          <a
+            href="https://www.instagram.com/waltereando/"
+            target="_blank"
+            class="fa fa-instagram"
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div id="copy">
+      <p>Copyright © Facundo Olmos 2023</p>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
